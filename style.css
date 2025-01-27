@@ -1,0 +1,47 @@
+*{
+margin:0;
+padding:0;
+}
+.menu1{
+width:75%;
+height:100px;
+margin:5px auto;
+}
+.menu1 ul{
+}
+.menu1 ul li{
+	float:left;
+	background-color:yellow;
+	border-radius:10px;
+	border-color:2px solid black;
+	color:black;
+	width:150px;
+	list-style: none;
+	height:50px;
+	line-height:50px;
+	font-size:25px;
+	text-align:center;
+	
+	
+}
+.menu1 ul li ul{
+	display:none;
+}
+.menu1 ul li:hover>ul{
+	display:block;
+}
+.menu1 ul li:hover{
+	background-color:red;
+
+}
+.menu1 ul li ul li{
+	position:relative;
+}
+.menu1 ul li ul li ul{
+	position:absolute;
+	left:150px;
+	top:0px;
+}
+
+
+
